@@ -6,7 +6,6 @@ import {
     LOCAL_NETWORK_ADDRESS,
     networkConfig,
 } from "../helper";
-import { verifyNft } from "../verifyContract";
 
 const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     const { deployments, getNamedAccounts } = hre;

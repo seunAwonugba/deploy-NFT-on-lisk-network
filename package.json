@@ -4,7 +4,8 @@
         "compile": "npx hardhat compile",
         "deploy": "npx hardhat deploy --network lisk-sepolia",
         "deploy:local": "npx hardhat deploy",
-        "npm_node": "npx hardhat node"
+        "npm_node": "npx hardhat node",
+        "verify": "npx hardhat verify --network lisk-sepolia 0xaF2d7911d58A557a33d74E61773e26Fdae508b5F"
     },
     "devDependencies": {
         "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
